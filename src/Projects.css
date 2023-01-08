@@ -1,0 +1,47 @@
+#container{
+    width:100%;
+    height:80vh;
+    position:absolute;
+    overflow-y: scroll;
+}
+
+#projecthead{
+    position: absolute;
+    top: 10%;
+    left:20%;
+    text-align: center;
+    font-size: 11vw;
+    color: rgba(173, 171, 168, 0.3);
+    text-transform: uppercase;
+}
+
+#content{
+    position:absolute;
+    width:90%;
+    height:100px;
+    top:35vh;
+    left:1vw;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    list-style: none;
+}
+
+.projecttitle{
+    font-size: 2.5vh;
+    padding-left: 6vw;
+    
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    padding-top:8vh;
+    padding-left: 4rem;
+}
+
+.project-links {
+    text-decoration: none;
+    color: rgb(173, 171, 168);
+    padding-left: 2.2vw;
+}

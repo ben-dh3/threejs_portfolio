@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+body {
+  clip-path: polygon(0% 50%, 100% 50%, 100% 50%, 0% 50%);
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  
+} 
+
+
+#my-canvas {
+  position:fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+  z-index:-1;
+  
+
+}
+
+#hcontainer {
+  width:100%;
+  height:100vh;
+  position:absolute;
+} 
+
+#hcontent {
+  position:absolute;
+  width: 100%;
+  text-align: center;
+  top: 35%;
+}
+
+#header {
+  font-size: 6vw;
+  text-transform: uppercase;
+  color: rgba(196, 195, 133, 0.5);
+  letter-spacing: .5vw;
+}
+
+#sub {
+  font-size: 2vw;
+  text-transform: uppercase;
+  color: rgb(168, 173, 169);
+  letter-spacing: .5vw;
+} 
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+

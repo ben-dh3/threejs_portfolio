@@ -1,0 +1,9 @@
+html,
+body {
+  position:absolute;
+  place-items: center;
+  height: 100vh;
+  width: 100%;
+  text-decoration:none;
+}
+

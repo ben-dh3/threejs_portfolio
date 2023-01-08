@@ -1,0 +1,64 @@
+#aheader {
+    position: absolute;
+    top: 10%;
+    left:30%;
+    text-align: center;
+    font-size: 11vw;
+    color: rgba(173, 171, 168, 0.3);
+    text-transform: uppercase;
+    
+}
+#acontent {
+    position:absolute;
+    display:grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    font-size: 1.1vw;
+    line-height: 2vw;
+}
+#subheader {
+    color: rgb(173, 171, 168);
+    font-size: 2vw;
+    text-transform: uppercase;
+}
+
+#about {
+    width: 120%;
+    position:relative;
+    color: rgb(173, 171, 168);
+    text-align:left;
+    top: 24%;
+    left: 15%;
+}
+
+#skills {
+    padding-left:2rem;
+    width:60%;
+    display:grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+}
+
+#experience {
+    padding-left: 2rem;
+    font-size: 1.1vw;
+    line-height: 2vw;
+    width: 96.5%;
+}
+
+#video {
+    position: relative;
+    top: 33vh;
+    left: -5vw;
+}
+
+#videotitle {
+    font-size: 0.8vw;
+    position: absolute;
+    top: 45vh;
+    color: rgb(173, 171, 168);
+}
+
+#email {
+    color:rgb(248, 240, 192)
+}
