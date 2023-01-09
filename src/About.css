@@ -16,6 +16,7 @@
     font-size: 1.1vw;
     line-height: 2vw;
 }
+
 #subheader {
     color: rgb(173, 171, 168);
     font-size: 2vw;
@@ -32,7 +33,7 @@
 }
 
 #skills {
-    padding-left:2rem;
+    padding-left:2vw;
     width:60%;
     display:grid;
     grid-template-rows: auto auto;
@@ -46,19 +47,79 @@
     width: 96.5%;
 }
 
-#video {
+video {
     position: relative;
-    top: 33vh;
+    top: 45vh;
     left: -5vw;
+    width:35vw;
+    height:40vh;
+    object-fit:cover;
 }
 
 #videotitle {
     font-size: 0.8vw;
     position: absolute;
-    top: 45vh;
+    top: 85vh;
     color: rgb(173, 171, 168);
 }
 
 #email {
     color:rgb(248, 240, 192)
+}
+
+@media screen and (max-width: 960px) {
+
+    #acontent {
+        position:absolute;
+        font-size: 2vw;
+        line-height: 2vw;
+    }
+
+    #subheader {
+        color: rgb(173, 171, 168);
+        font-size: 3vw;
+        text-transform: uppercase;
+    }
+
+    #about {
+        width: 80%;
+        position:relative;
+        color: rgb(173, 171, 168);
+        text-align:left;
+        top: 60%;
+        left: 10%;
+    }
+
+    #skills {
+        width: 80%;
+        position:relative;
+        color: rgb(173, 171, 168);
+        text-align:left;
+        left: 6%;
+    }
+
+    #experience {
+        width: 100%;
+        position:relative;
+        color: rgb(173, 171, 168);
+        text-align:left;
+        font-size: 2vw;
+    }
+
+    video {
+        position: absolute;
+        top: 23vh;
+        left: -67vw;
+        width:35vw;
+        height:20vh;
+        object-fit:cover;
+    }
+
+    #videotitle {
+        font-size: 1.5vw;
+        position: absolute;
+        top: 45vh;
+        left: -67vw;
+        color: rgb(173, 171, 168);
+    }
 }
