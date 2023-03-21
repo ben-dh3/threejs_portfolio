@@ -2,8 +2,15 @@ import FCC from './FCC.png';
 import FCC2 from './FCC2.png';
 import aday from './aday.png';
 import faucet from './faucet.png';
+import blog from './blog.png';
 
 export const ProjectItems = [
+    {
+        title: 'Blog Website',
+        url: 'https://blog.benduffield-harding.com',
+        cName: 'project-links',
+        image: blog
+    },
     {
         title: 'JavaScript Algorithms and Data Structures Certification',
         url: 'https://www.freecodecamp.org/certification/ben-dh3/javascript-algorithms-and-data-structures',

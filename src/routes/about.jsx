@@ -60,8 +60,6 @@ export default function About() {
         with resources such as codingame.<br></br><br></br>
         Other interests include travelling - Australia, Thailand, Laos, Vietnam,
         Cambodia, Bali, Phillipines. Gym, Judo, and playing chess.<br></br><br></br>
-        <div id="subheader">Contact</div><br></br>
-          <p id="email">benjaminduffield1997@gmail.com</p>
         </motion.div>  
         <motion.div id="video"
         initial={{opacity:0}}
